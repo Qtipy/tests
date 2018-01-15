@@ -1,0 +1,11 @@
+{
+    "require": {
+        "symfony/skeleton": "3.4"
+    },
+    "scripts": {
+        "auto-scripts": {
+            "cache:clear": "symfony-cmd",
+            "assets:install --symlink --relative %PUBLIC_DIR%": "symfony-cmd"
+        }
+    }
+}
